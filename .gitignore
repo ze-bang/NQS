@@ -1,0 +1,29 @@
+# Byte-compiled / packaging
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Notebooks / data
+.ipynb_checkpoints/
+*.npz
+*.h5
+*.hdf5
+checkpoints/
+runs/
+
+# JAX
+*.so
