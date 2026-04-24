@@ -8,7 +8,7 @@ MinSR (kernel-trick Stochastic Reconfiguration) optimiser.
 
 from .lattices import Chain1D, Square2D
 from .hamiltonians import TFIM, HeisenbergJ1J2
-from .ansatz import CNN, ViT
+from .ansatz import CNN, GCNN, ViT
 from .sampler import MetropolisLocal, MetropolisExchange
 from .vmc import local_energy, minsr_update
 from .optimizer import MinSRState, minsr_step
@@ -20,6 +20,7 @@ __all__ = [
     "TFIM",
     "HeisenbergJ1J2",
     "CNN",
+    "GCNN",
     "ViT",
     "MetropolisLocal",
     "MetropolisExchange",
