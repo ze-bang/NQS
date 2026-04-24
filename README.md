@@ -66,6 +66,15 @@ examples/
   heisenberg_2d_gcnn.py
 ```
 
+## Pedagogical tutorial
+
+A self-contained derivation of the variational principle, the local-energy
+estimator, the MinSR natural-gradient kernel trick, and the GCNN
+group-convolution machinery (with proofs of equivariance) is in
+[`docs/nqs_tutorial.pdf`](docs/nqs_tutorial.pdf) (`docs/nqs_tutorial.tex`).
+Each section ends with a pointer to the file in the package that
+implements it.
+
 ## References
 
 - *G. Carleo & M. Troyer*, Solving the quantum many-body problem with

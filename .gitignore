@@ -27,3 +27,12 @@ runs/
 
 # JAX
 *.so
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
